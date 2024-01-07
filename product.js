@@ -26,7 +26,7 @@ createApp({
                 console.log(err)
                 alert(err.data.message)
                 // 未登入時返回登入頁面
-                window.location='login.html'
+                window.location='index.html'
             })
         },
         // 取得資料
